@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://boutique-luxury-spa.preview.emergentagent.com/ -->
+<html class="lenis" lang="en">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="#000000" name="theme-color"/>
+  <meta content="A product of emergent.sh" name="description"/>
+  <link href="https://fonts.googleapis.com/" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+  <!--
+        manifest.json provides metadata used when your web app is installed on a
+        user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+        -->
+  <!--
+        Notice the use of  in the tags above.
+        It will be replaced with the URL of the `public` folder during the build.
+        Only files inside the `public` folder can be referenced from the HTML.
+
+        Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+        work correctly both with client-side routing and a non-root public URL.
+        Learn how to configure a non-root public URL by running `npm run build`.
+        -->
+  <title>
+   Vértice | Boutique Spa de Luxo
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Montserrat:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+  <link href="assets/css/style.css" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js">
+  </script>
+ </head>
+ <body>
+  <noscript>
+   You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root">
+   <div class="App bg-[#2B160D] min-h-screen">
+    <header class="fixed top-0 left-0 right-0 z-50 transition-colors duration-500 bg-transparent">
+     <div class="max-w-7xl mx-auto px-6 sm:px-12 flex items-center justify-between h-20">
+      <button class="cursor-pointer">
+       <div class="flex items-center gap-3">
+        <img src="assets/images/logo.png" alt="Logo Vértice" class="h-14 w-auto object-contain" />
+       </div>
+      </button>
+      <nav class="hidden md:flex items-center gap-10">
+       <button class="font-sans text-xs uppercase tracking-[0.2em] text-[#E8DCC8]/80 hover:text-[#F2D98A] transition-colors duration-300 relative group nav-link" data-target="#inicio">
+        Início
+        <span class="absolute -bottom-1.5 left-0 h-px w-0 bg-gold-gradient group-hover:w-full transition-all duration-300">
+        </span>
+       </button>
+       <button class="font-sans text-xs uppercase tracking-[0.2em] text-[#E8DCC8]/80 hover:text-[#F2D98A] transition-colors duration-300 relative group nav-link" data-target="#sobre">
+        Sobre
+        <span class="absolute -bottom-1.5 left-0 h-px w-0 bg-gold-gradient group-hover:w-full transition-all duration-300">
+        </span>
+       </button>
+       <button class="font-sans text-xs uppercase tracking-[0.2em] text-[#E8DCC8]/80 hover:text-[#F2D98A] transition-colors duration-300 relative group nav-link" data-target="#servicos">
+        Serviços
+        <span class="absolute -bottom-1.5 left-0 h-px w-0 bg-gold-gradient group-hover:w-full transition-all duration-300">
+        </span>
+       </button>
+       <button class="font-sans text-xs uppercase tracking-[0.2em] text-[#E8DCC8]/80 hover:text-[#F2D98A] transition-colors duration-300 relative group nav-link" data-target="#ambiente">
+        Ambiente
+        <span class="absolute -bottom-1.5 left-0 h-px w-0 bg-gold-gradient group-hover:w-full transition-all duration-300">
+        </span>
+       </button>
+       <button class="font-sans text-xs uppercase tracking-[0.2em] text-[#E8DCC8]/80 hover:text-[#F2D98A] transition-colors duration-300 relative group nav-link" data-target="#contato">
+        Contato
+        <span class="absolute -bottom-1.5 left-0 h-px w-0 bg-gold-gradient group-hover:w-full transition-all duration-300">
+        </span>
+       </button>
+      </nav>
+      <a class="hidden md:inline-flex items-center rounded-full bg-gold-gradient px-6 py-2.5 font-sans text-xs uppercase tracking-[0.2em] text-[#2B160D] font-medium hover:scale-105 hover:shadow-[0_8px_30px_rgba(201,162,39,0.35)] transition-transform duration-300 magnetic-btn" href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20V%C3%A9rtice%20Boutique%20Spa." rel="noopener noreferrer" target="_blank">
+       Agende
+      </a>
+      <button aria-label="Menu" class="md:hidden text-[#F2D98A]" id="mobile-menu-btn">
+       <svg aria-hidden="true" class="lucide lucide-menu" fill="none" height="26" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="26" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 12h16">
+        </path>
+        <path d="M4 18h16">
+        </path>
+        <path d="M4 6h16">
+        </path>
+       </svg>
+      </button>
+     </div>
+    </header>
+    <main>
+     <section class="relative h-[100svh] min-h-[640px] overflow-hidden" id="inicio">
+      <div class="absolute inset-0">
+       <img alt="Ambiente aconchegante do Vértice Boutique Spa com velas acesas e toalhas" class="w-full h-full object-cover" src="assets/images/hero.jpg"/>
+       <div class="absolute inset-0 bg-gradient-to-b from-[#2B160D]/70 via-[#2B160D]/45 to-[#2B160D]">
+       </div>
+       <div class="absolute inset-0 bg-[#2B160D]/25">
+       </div>
+      </div>
+      <div class="relative z-10 h-full max-w-7xl mx-auto px-6 sm:px-12 flex flex-col justify-center">
+       <span class="font-sans text-xs sm:text-sm uppercase tracking-[0.4em] text-[#C9A227] mb-6 hero-subtitle hero-reveal-fade">
+        Spa Boutique de Luxo
+       </span>
+       <h1 class="font-serif font-medium leading-[0.95] tracking-tight text-[#FDFBF7]">
+        <span class="block overflow-hidden hero-line-0">
+         <span class="block text-5xl sm:text-7xl lg:text-8xl hero-line-1 hero-reveal-slide">
+          Desacelere.
+         </span>
+        </span>
+        <span class="block overflow-hidden hero-line-2">
+         <span class="block text-5xl sm:text-7xl lg:text-8xl hero-line-3 hero-reveal-slide">
+          Relaxe.
+         </span>
+        </span>
+        <span class="block overflow-hidden hero-line-4">
+         <span class="block text-5xl sm:text-7xl lg:text-8xl hero-line-5 hero-reveal-slide">
+          Recarregue-se.
+         </span>
+        </span>
+        <span class="block mt-2 hero-line-6">
+         <span class="block text-3xl sm:text-5xl lg:text-6xl text-gold-gradient italic hero-line-7 hero-reveal-slide">
+          Você merece.
+         </span>
+        </span>
+       </h1>
+       <p class="max-w-md mt-8 font-sans font-light text-base sm:text-lg text-[#E8DCC8]/85 leading-relaxed hero-para hero-reveal-fade hero-desc">
+        Um santuário de calma no coração da cidade. Rituais sensoriais pensados para reencontrar o seu centro.
+       </p>
+       <div class="mt-10 hero-reveal-fade hero-btn-wrap">
+        <a class="group inline-flex items-center gap-3 rounded-full bg-gold-gradient px-9 py-4 font-sans text-xs sm:text-sm uppercase tracking-[0.2em] text-[#2B160D] font-medium hover:scale-105 hover:shadow-[0_10px_40px_rgba(201,162,39,0.4)] transition-transform duration-300 magnetic-btn" href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20V%C3%A9rtice%20Boutique%20Spa." rel="noopener noreferrer" target="_blank">
+         Agende seu momento
+         <span class="transition-transform duration-300 group-hover:translate-x-1">
+          →
+         </span>
+        </a>
+       </div>
+      </div>
+      <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-3">
+       <span class="font-sans text-[10px] uppercase tracking-[0.3em] text-[#E8DCC8]/60">
+        Explorar
+       </span>
+       <span class="block h-12 w-px bg-[#C9A227]/40 relative overflow-hidden">
+        <span class="scroll-line absolute inset-0 bg-gold-gradient block">
+        </span>
+       </span>
+      </div>
+     </section>
+     <section class="relative bg-[#3A1D12] py-24 sm:py-32 lg:py-40" id="sobre">
+      <div class="max-w-7xl mx-auto px-6 sm:px-12">
+       <div class="grid lg:grid-cols-12 gap-16 lg:gap-12 items-start">
+        <div class="lg:col-span-5">
+         <div class="lg:sticky lg:top-28">
+          <div class="relative reveal">
+           <div class="overflow-hidden rounded-sm">
+            <img alt="Momento de relaxamento durante uma massagem no spa" class="w-full h-[480px] lg:h-[620px] object-cover" src="assets/images/about.jpg"/>
+           </div>
+           <div class="absolute -bottom-6 -right-4 sm:-right-6 bg-[#2B160D] border border-[#C9A227]/30 px-7 py-6 max-w-[230px]">
+            <p class="font-serif italic text-[#F2D98A] text-xl leading-snug">
+             "Seja o seu maior propósito."
+            </p>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="lg:col-span-7 lg:pl-8">
+         <div class="reveal">
+          <span class="font-sans text-xs sm:text-sm uppercase tracking-[0.3em] text-[#C9A227]">
+           Nossa Filosofia
+          </span>
+          <h2 class="mt-5 font-serif font-medium tracking-tight text-4xl sm:text-5xl text-[#FDFBF7] leading-[1.05]">
+           Cuidar de si é o gesto
+           <span class="text-gold-gradient italic">
+            mais nobre
+           </span>
+           que existe.
+          </h2>
+         </div>
+         <div class="mt-16 space-y-14">
+          <div class="reveal">
+           <div class="flex gap-6 sm:gap-10 border-t border-[#C9A227]/15 pt-8">
+            <span class="font-serif text-3xl sm:text-4xl text-gold-gradient shrink-0">
+             01
+            </span>
+            <div>
+             <h3 class="font-serif text-2xl sm:text-3xl text-[#E8DCC8] mb-3">
+              Seja o seu maior propósito.
+             </h3>
+             <p class="font-sans font-light text-[#E8DCC8]/70 leading-relaxed max-w-xl">
+              No Vértice, acreditamos que cuidar de si é o gesto mais nobre que existe. Aqui, o tempo desacelera para que você reencontre o seu centro.
+             </p>
+            </div>
+           </div>
+          </div>
+          <div class="reveal">
+           <div class="flex gap-6 sm:gap-10 border-t border-[#C9A227]/15 pt-8">
+            <span class="font-serif text-3xl sm:text-4xl text-gold-gradient shrink-0">
+             02
+            </span>
+            <div>
+             <h3 class="font-serif text-2xl sm:text-3xl text-[#E8DCC8] mb-3">
+              Ser cuidado não é custo, é prazeroso.
+             </h3>
+             <p class="font-sans font-light text-[#E8DCC8]/70 leading-relaxed max-w-xl">
+              Cada detalhe — da luz das velas ao toque das mãos — foi pensado para transformar o cuidado em um ritual sensorial de puro prazer.
+             </p>
+            </div>
+           </div>
+          </div>
+          <div class="reveal">
+           <div class="flex gap-6 sm:gap-10 border-t border-[#C9A227]/15 pt-8">
+            <span class="font-serif text-3xl sm:text-4xl text-gold-gradient shrink-0">
+             03
+            </span>
+            <div>
+             <h3 class="font-serif text-2xl sm:text-3xl text-[#E8DCC8] mb-3">
+              Menos é mais. Sempre.
+             </h3>
+             <p class="font-sans font-light text-[#E8DCC8]/70 leading-relaxed max-w-xl">
+              Um santuário de calma e sofisticação, onde o essencial fala mais alto e o silêncio é parte da experiência.
+             </p>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section class="relative bg-[#2B160D] py-24 sm:py-32 lg:py-40" id="servicos">
+      <div class="max-w-7xl mx-auto px-6 sm:px-12">
+       <div class="max-w-2xl reveal">
+        <span class="font-sans text-xs sm:text-sm uppercase tracking-[0.3em] text-[#C9A227]">
+         Nossos Rituais
+        </span>
+        <h2 class="mt-5 font-serif font-medium tracking-tight text-4xl sm:text-5xl text-[#FDFBF7] leading-[1.05]">
+         Experiências desenhadas para o seu bem-estar.
+        </h2>
+        <p class="mt-6 font-sans font-light text-[#E8DCC8]/70 leading-relaxed">
+         Cada tratamento é um convite para desacelerar. Escolha o seu momento.
+        </p>
+       </div>
+       <div class="mt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="reveal">
+         <article class="group relative overflow-hidden rounded-sm border border-[#C9A227]/15 bg-[#3A1D12] h-[420px] transition-colors duration-500 hover:border-[#C9A227]/60 parallax-card">
+          <div class="absolute inset-0 overflow-hidden">
+           <img alt="Massagens Relaxantes" class="w-full h-full object-cover opacity-55 transition-transform duration-[900ms] ease-out group-hover:scale-110 group-hover:opacity-70 parallax-img" loading="lazy" src="assets/images/service-relax.jpg"/>
+           <div class="absolute inset-0 bg-gradient-to-t from-[#2B160D] via-[#2B160D]/50 to-transparent">
+           </div>
+          </div>
+          <div class="relative z-10 h-full flex flex-col justify-end p-8">
+           <span class="font-sans text-[10px] uppercase tracking-[0.3em] text-[#C9A227] mb-3">
+            0
+            <span data-ve-dynamic="true" style="display: contents;">
+             1
+            </span>
+           </span>
+           <h3 class="font-serif text-2xl sm:text-[1.7rem] text-[#FDFBF7] leading-tight">
+            Massagens Relaxantes
+           </h3>
+           <p class="mt-3 font-sans font-light text-sm text-[#E8DCC8]/75 leading-relaxed max-h-0 opacity-0 overflow-hidden transition-all duration-500 group-hover:max-h-40 group-hover:opacity-100">
+            Toque profundo e óleos aquecidos que dissolvem a tensão e devolvem a leveza ao corpo.
+           </p>
+           <span class="mt-4 inline-flex items-center gap-2 font-sans text-[11px] uppercase tracking-[0.2em] text-[#F2D98A] opacity-0 -translate-y-1 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
+            Reservar →
+           </span>
+          </div>
+          <div class="pointer-events-none absolute inset-0 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 shadow-[inset_0_0_60px_rgba(201,162,39,0.15)]">
+          </div>
+         </article>
+        </div>
+        <div class="reveal">
+         <article class="group relative overflow-hidden rounded-sm border border-[#C9A227]/15 bg-[#3A1D12] h-[420px] transition-colors duration-500 hover:border-[#C9A227]/60 parallax-card">
+          <div class="absolute inset-0 overflow-hidden">
+           <img alt="Massagem Terapêutica" class="w-full h-full object-cover opacity-55 transition-transform duration-[900ms] ease-out group-hover:scale-110 group-hover:opacity-70 parallax-img" loading="lazy" src="assets/images/service-therapeutic.jpg"/>
+           <div class="absolute inset-0 bg-gradient-to-t from-[#2B160D] via-[#2B160D]/50 to-transparent">
+           </div>
+          </div>
+          <div class="relative z-10 h-full flex flex-col justify-end p-8">
+           <span class="font-sans text-[10px] uppercase tracking-[0.3em] text-[#C9A227] mb-3">
+            0
+            <span data-ve-dynamic="true" style="display: contents;">
+             2
+            </span>
+           </span>
+           <h3 class="font-serif text-2xl sm:text-[1.7rem] text-[#FDFBF7] leading-tight">
+            Massagem Terapêutica
+           </h3>
+           <p class="mt-3 font-sans font-light text-sm text-[#E8DCC8]/75 leading-relaxed max-h-0 opacity-0 overflow-hidden transition-all duration-500 group-hover:max-h-40 group-hover:opacity-100">
+            Técnica precisa para aliviar dores, restaurar a mobilidade e reequilibrar a energia.
+           </p>
+           <span class="mt-4 inline-flex items-center gap-2 font-sans text-[11px] uppercase tracking-[0.2em] text-[#F2D98A] opacity-0 -translate-y-1 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
+            Reservar →
+           </span>
+          </div>
+          <div class="pointer-events-none absolute inset-0 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 shadow-[inset_0_0_60px_rgba(201,162,39,0.15)]">
+          </div>
+         </article>
+        </div>
+        <div class="reveal">
+         <article class="group relative overflow-hidden rounded-sm border border-[#C9A227]/15 bg-[#3A1D12] h-[420px] transition-colors duration-500 hover:border-[#C9A227]/60 parallax-card">
+          <div class="absolute inset-0 overflow-hidden">
+           <img alt="Spa de Pés" class="w-full h-full object-cover opacity-55 transition-transform duration-[900ms] ease-out group-hover:scale-110 group-hover:opacity-70 parallax-img" loading="lazy" src="assets/images/service-feet.jpg"/>
+           <div class="absolute inset-0 bg-gradient-to-t from-[#2B160D] via-[#2B160D]/50 to-transparent">
+           </div>
+          </div>
+          <div class="relative z-10 h-full flex flex-col justify-end p-8">
+           <span class="font-sans text-[10px] uppercase tracking-[0.3em] text-[#C9A227] mb-3">
+            0
+            <span data-ve-dynamic="true" style="display: contents;">
+             3
+            </span>
+           </span>
+           <h3 class="font-serif text-2xl sm:text-[1.7rem] text-[#FDFBF7] leading-tight">
+            Spa de Pés
+           </h3>
+           <p class="mt-3 font-sans font-light text-sm text-[#E8DCC8]/75 leading-relaxed max-h-0 opacity-0 overflow-hidden transition-all duration-500 group-hover:max-h-40 group-hover:opacity-100">
+            Ritual de banho de sal e pétalas que renova, hidrata e acalma dos pés à alma.
+           </p>
+           <span class="mt-4 inline-flex items-center gap-2 font-sans text-[11px] uppercase tracking-[0.2em] text-[#F2D98A] opacity-0 -translate-y-1 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
+            Reservar →
+           </span>
+          </div>
+          <div class="pointer-events-none absolute inset-0 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 shadow-[inset_0_0_60px_rgba(201,162,39,0.15)]">
+          </div>
+         </article>
+        </div>
+        <div class="reveal">
+         <article class="group relative overflow-hidden rounded-sm border border-[#C9A227]/15 bg-[#3A1D12] h-[420px] transition-colors duration-500 hover:border-[#C9A227]/60 parallax-card">
+          <div class="absolute inset-0 overflow-hidden">
+           <img alt="Tratamentos Faciais" class="w-full h-full object-cover opacity-55 transition-transform duration-[900ms] ease-out group-hover:scale-110 group-hover:opacity-70 parallax-img" loading="lazy" src="assets/images/service-facial.jpg"/>
+           <div class="absolute inset-0 bg-gradient-to-t from-[#2B160D] via-[#2B160D]/50 to-transparent">
+           </div>
+          </div>
+          <div class="relative z-10 h-full flex flex-col justify-end p-8">
+           <span class="font-sans text-[10px] uppercase tracking-[0.3em] text-[#C9A227] mb-3">
+            0
+            <span data-ve-dynamic="true" style="display: contents;">
+             4
+            </span>
+           </span>
+           <h3 class="font-serif text-2xl sm:text-[1.7rem] text-[#FDFBF7] leading-tight">
+            Tratamentos Faciais
+           </h3>
+           <p class="mt-3 font-sans font-light text-sm text-[#E8DCC8]/75 leading-relaxed max-h-0 opacity-0 overflow-hidden transition-all duration-500 group-hover:max-h-40 group-hover:opacity-100">
+            Protocolos personalizados que revelam o viço natural e a luminosidade da pele.
+           </p>
+           <span class="mt-4 inline-flex items-center gap-2 font-sans text-[11px] uppercase tracking-[0.2em] text-[#F2D98A] opacity-0 -translate-y-1 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
+            Reservar →
+           </span>
+          </div>
+          <div class="pointer-events-none absolute inset-0 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 shadow-[inset_0_0_60px_rgba(201,162,39,0.15)]">
+          </div>
+         </article>
+        </div>
+        <div class="reveal">
+         <article class="group relative overflow-hidden rounded-sm border border-[#C9A227]/15 bg-[#3A1D12] h-[420px] transition-colors duration-500 hover:border-[#C9A227]/60 parallax-card">
+          <div class="absolute inset-0 overflow-hidden">
+           <img alt="Ritual de Casal" class="w-full h-full object-cover opacity-55 transition-transform duration-[900ms] ease-out group-hover:scale-110 group-hover:opacity-70 parallax-img" loading="lazy" src="assets/images/service-couple.jpg"/>
+           <div class="absolute inset-0 bg-gradient-to-t from-[#2B160D] via-[#2B160D]/50 to-transparent">
+           </div>
+          </div>
+          <div class="relative z-10 h-full flex flex-col justify-end p-8">
+           <span class="font-sans text-[10px] uppercase tracking-[0.3em] text-[#C9A227] mb-3">
+            0
+            <span data-ve-dynamic="true" style="display: contents;">
+             5
+            </span>
+           </span>
+           <h3 class="font-serif text-2xl sm:text-[1.7rem] text-[#FDFBF7] leading-tight">
+            Ritual de Casal
+           </h3>
+           <p class="mt-3 font-sans font-light text-sm text-[#E8DCC8]/75 leading-relaxed max-h-0 opacity-0 overflow-hidden transition-all duration-500 group-hover:max-h-40 group-hover:opacity-100">
+            Uma experiência a dois entre velas e aromas, para desacelerar lado a lado.
+           </p>
+           <span class="mt-4 inline-flex items-center gap-2 font-sans text-[11px] uppercase tracking-[0.2em] text-[#F2D98A] opacity-0 -translate-y-1 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
+            Reservar →
+           </span>
+          </div>
+          <div class="pointer-events-none absolute inset-0 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 shadow-[inset_0_0_60px_rgba(201,162,39,0.15)]">
+          </div>
+         </article>
+        </div>
+        <div class="reveal">
+         <article class="group relative overflow-hidden rounded-sm border border-[#C9A227]/15 bg-[#3A1D12] h-[420px] transition-colors duration-500 hover:border-[#C9A227]/60 parallax-card">
+          <div class="absolute inset-0 overflow-hidden">
+           <img alt="Day Spa" class="w-full h-full object-cover opacity-55 transition-transform duration-[900ms] ease-out group-hover:scale-110 group-hover:opacity-70 parallax-img" loading="lazy" src="assets/images/service-dayspa.jpg"/>
+           <div class="absolute inset-0 bg-gradient-to-t from-[#2B160D] via-[#2B160D]/50 to-transparent">
+           </div>
+          </div>
+          <div class="relative z-10 h-full flex flex-col justify-end p-8">
+           <span class="font-sans text-[10px] uppercase tracking-[0.3em] text-[#C9A227] mb-3">
+            0
+            <span data-ve-dynamic="true" style="display: contents;">
+             6
+            </span>
+           </span>
+           <h3 class="font-serif text-2xl sm:text-[1.7rem] text-[#FDFBF7] leading-tight">
+            Day Spa
+           </h3>
+           <p class="mt-3 font-sans font-light text-sm text-[#E8DCC8]/75 leading-relaxed max-h-0 opacity-0 overflow-hidden transition-all duration-500 group-hover:max-h-40 group-hover:opacity-100">
+            Um dia inteiro dedicado a você: uma jornada completa de bem-estar e silêncio.
+           </p>
+           <span class="mt-4 inline-flex items-center gap-2 font-sans text-[11px] uppercase tracking-[0.2em] text-[#F2D98A] opacity-0 -translate-y-1 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
+            Reservar →
+           </span>
+          </div>
+          <div class="pointer-events-none absolute inset-0 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 shadow-[inset_0_0_60px_rgba(201,162,39,0.15)]">
+          </div>
+         </article>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section class="relative bg-[#3A1D12] border-y border-[#C9A227]/15 py-8 sm:py-10 overflow-hidden">
+      <div class="marquee-track">
+       <span class="flex items-center shrink-0">
+        <span class="font-serif italic text-2xl sm:text-4xl text-[#E8DCC8] px-6 sm:px-10">
+         Ser cuidado não é custo, é prazeroso.
+        </span>
+        <span class="text-gold-gradient text-2xl sm:text-4xl">
+         ✦
+        </span>
+       </span>
+       <span class="flex items-center shrink-0">
+        <span class="font-serif italic text-2xl sm:text-4xl text-[#E8DCC8] px-6 sm:px-10">
+         Agende seu momento.
+        </span>
+        <span class="text-gold-gradient text-2xl sm:text-4xl">
+         ✦
+        </span>
+       </span>
+       <span class="flex items-center shrink-0">
+        <span class="font-serif italic text-2xl sm:text-4xl text-[#E8DCC8] px-6 sm:px-10">
+         Desacelere. Relaxe. Recarregue-se.
+        </span>
+        <span class="text-gold-gradient text-2xl sm:text-4xl">
+         ✦
+        </span>
+       </span>
+       <span class="flex items-center shrink-0">
+        <span class="font-serif italic text-2xl sm:text-4xl text-[#E8DCC8] px-6 sm:px-10">
+         Seja o seu maior propósito.
+        </span>
+        <span class="text-gold-gradient text-2xl sm:text-4xl">
+         ✦
+        </span>
+       </span>
+       <span class="flex items-center shrink-0">
+        <span class="font-serif italic text-2xl sm:text-4xl text-[#E8DCC8] px-6 sm:px-10">
+         Ser cuidado não é custo, é prazeroso.
+        </span>
+        <span class="text-gold-gradient text-2xl sm:text-4xl">
+         ✦
+        </span>
+       </span>
+       <span class="flex items-center shrink-0">
+        <span class="font-serif italic text-2xl sm:text-4xl text-[#E8DCC8] px-6 sm:px-10">
+         Agende seu momento.
+        </span>
+        <span class="text-gold-gradient text-2xl sm:text-4xl">
+         ✦
+        </span>
+       </span>
+       <span class="flex items-center shrink-0">
+        <span class="font-serif italic text-2xl sm:text-4xl text-[#E8DCC8] px-6 sm:px-10">
+         Desacelere. Relaxe. Recarregue-se.
+        </span>
+        <span class="text-gold-gradient text-2xl sm:text-4xl">
+         ✦
+        </span>
+       </span>
+       <span class="flex items-center shrink-0">
+        <span class="font-serif italic text-2xl sm:text-4xl text-[#E8DCC8] px-6 sm:px-10">
+         Seja o seu maior propósito.
+        </span>
+        <span class="text-gold-gradient text-2xl sm:text-4xl">
+         ✦
+        </span>
+       </span>
+      </div>
+     </section>
+     <section class="relative bg-[#2B160D] py-24 sm:py-32 lg:py-40" id="ambiente">
+      <div class="max-w-7xl mx-auto px-6 sm:px-12">
+       <div class="max-w-2xl mb-16 reveal">
+        <span class="font-sans text-xs sm:text-sm uppercase tracking-[0.3em] text-[#C9A227]">
+         O Ambiente
+        </span>
+        <h2 class="mt-5 font-serif font-medium tracking-tight text-4xl sm:text-5xl text-[#FDFBF7] leading-[1.05]">
+         Um refúgio de luz suave e
+         <span class="text-gold-gradient italic">
+          detalhes dourados
+         </span>
+         .
+        </h2>
+       </div>
+       <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 auto-rows-[200px] sm:auto-rows-[260px]">
+        <div class="col-span-2 row-span-2 reveal">
+         <div class="relative overflow-hidden rounded-sm h-full">
+          <img alt="Sala de massagem do spa" class="w-full h-full object-cover" loading="lazy" src="assets/images/service-therapeutic.jpg" style="transform: translateY(-8%) scale(1.15);"/>
+          <div class="absolute inset-0 bg-[#2B160D]/10 hover:bg-transparent transition-colors duration-500">
+          </div>
+         </div>
+        </div>
+        <div class="col-span-1 row-span-1 reveal">
+         <div class="relative overflow-hidden rounded-sm h-full">
+          <img alt="Velas acesas no ambiente do spa" class="w-full h-full object-cover" loading="lazy" src="assets/images/service-dayspa.jpg" style="transform: translateY(-8%) scale(1.15);"/>
+          <div class="absolute inset-0 bg-[#2B160D]/10 hover:bg-transparent transition-colors duration-500">
+          </div>
+         </div>
+        </div>
+        <div class="col-span-1 row-span-1 reveal">
+         <div class="relative overflow-hidden rounded-sm h-full">
+          <img alt="Toalhas enroladas com detalhe dourado" class="w-full h-full object-cover" loading="lazy" src="assets/images/gallery-towels.jpg" style="transform: translateY(-8%) scale(1.15);"/>
+          <div class="absolute inset-0 bg-[#2B160D]/10 hover:bg-transparent transition-colors duration-500">
+          </div>
+         </div>
+        </div>
+        <div class="col-span-2 row-span-1 reveal">
+         <div class="relative overflow-hidden rounded-sm h-full">
+          <img alt="Espelho dourado ornamentado do spa" class="w-full h-full object-cover" loading="lazy" src="assets/images/gallery-mirror.jpg" style="transform: translateY(-8%) scale(1.15);"/>
+          <div class="absolute inset-0 bg-[#2B160D]/10 hover:bg-transparent transition-colors duration-500">
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section class="relative bg-[#E8DCC8] py-24 sm:py-32 lg:py-40">
+      <div class="max-w-4xl mx-auto px-6 sm:px-12 text-center">
+       <span class="font-sans text-xs sm:text-sm uppercase tracking-[0.3em] text-[#C9A227] text-[#8a6a1e]">
+        Quem vive, recomenda
+       </span>
+       <div class="mt-8 font-serif text-6xl sm:text-8xl text-[#C9A227] leading-none select-none">
+        "
+       </div>
+       <div class="relative min-h-[220px] sm:min-h-[200px] flex items-center justify-center">
+        <blockquote id="testimonial-blockquote" class="px-2 transition-all duration-300">
+         <p id="testimonial-text" class="font-serif text-2xl sm:text-4xl leading-snug text-[#2B160D] italic">
+          Saí de lá renovada, como se o mundo tivesse desacelerado só para mim. Uma experiência de outro nível.
+         </p>
+         <footer class="mt-8">
+          <p id="testimonial-author" class="font-sans text-sm uppercase tracking-[0.2em] text-[#2B160D] font-medium">
+           Marina Albuquerque
+          </p>
+          <p id="testimonial-context" class="font-sans text-xs uppercase tracking-[0.2em] text-[#3A1D12]/60 mt-1">
+           Cliente desde 2023
+          </p>
+         </footer>
+        </blockquote>
+       </div>
+       <div class="mt-10 flex items-center justify-center gap-6">
+        <button id="testimonial-prev" aria-label="Anterior" class="h-11 w-11 rounded-full border border-[#2B160D]/25 flex items-center justify-center text-[#2B160D] hover:bg-[#2B160D] hover:text-[#F2D98A] transition-colors duration-300">
+         <svg aria-hidden="true" class="lucide lucide-chevron-left" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+          <path d="m15 18-6-6 6-6">
+          </path>
+         </svg>
+        </button>
+        <div id="testimonial-dots" class="flex gap-2">
+         <button aria-label="Depoimento 1" class="h-1.5 rounded-full transition-all duration-300 w-8 bg-[#C9A227]">
+         </button>
+         <button aria-label="Depoimento 2" class="h-1.5 rounded-full transition-all duration-300 w-1.5 bg-[#2B160D]/25">
+         </button>
+         <button aria-label="Depoimento 3" class="h-1.5 rounded-full transition-all duration-300 w-1.5 bg-[#2B160D]/25">
+         </button>
+        </div>
+        <button id="testimonial-next" aria-label="Próximo" class="h-11 w-11 rounded-full border border-[#2B160D]/25 flex items-center justify-center text-[#2B160D] hover:bg-[#2B160D] hover:text-[#F2D98A] transition-colors duration-300">
+         <svg aria-hidden="true" class="lucide lucide-chevron-right" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+          <path d="m9 18 6-6-6-6">
+          </path>
+         </svg>
+        </button>
+       </div>
+      </div>
+     </section>
+     <section class="relative bg-[#3A1D12] py-24 sm:py-32 lg:py-40" id="contato">
+      <div class="max-w-7xl mx-auto px-6 sm:px-12">
+       <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div>
+         <div class="reveal">
+          <span class="font-sans text-xs sm:text-sm uppercase tracking-[0.3em] text-[#C9A227]">
+           Visite-nos
+          </span>
+          <h2 class="mt-5 font-serif font-medium tracking-tight text-4xl sm:text-5xl text-[#FDFBF7] leading-[1.05]">
+           Onde a cidade
+           <span class="text-gold-gradient italic">
+            desacelera
+           </span>
+           .
+          </h2>
+         </div>
+         <div class="reveal">
+          <div class="mt-12 flex gap-5 border-t border-[#C9A227]/15 pt-8">
+           <svg aria-hidden="true" class="lucide lucide-map-pin text-[#C9A227] shrink-0 mt-1" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+            </path>
+            <circle cx="12" cy="10" r="3">
+            </circle>
+           </svg>
+           <div>
+            <h3 class="font-sans text-xs uppercase tracking-[0.25em] text-[#C9A227] mb-2">
+             Endereço
+            </h3>
+            <p class="font-serif text-xl text-[#E8DCC8]">
+             Rua das Palmeiras, 123 — Jardins
+            </p>
+            <p class="font-sans font-light text-[#E8DCC8]/70">
+             São Paulo — SP, 01415-000
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="reveal">
+          <div class="mt-8 flex gap-5 border-t border-[#C9A227]/15 pt-8">
+           <svg aria-hidden="true" class="lucide lucide-clock text-[#C9A227] shrink-0 mt-1" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="10">
+            </circle>
+            <polyline points="12 6 12 12 16 14">
+            </polyline>
+           </svg>
+           <div class="w-full">
+            <h3 class="font-sans text-xs uppercase tracking-[0.25em] text-[#C9A227] mb-3">
+             Horários
+            </h3>
+            <ul class="space-y-2">
+             <li class="flex justify-between max-w-xs font-sans font-light text-[#E8DCC8]/85">
+              <span>
+               Segunda a Sexta
+              </span>
+              <span class="text-[#F2D98A]">
+               09h — 21h
+              </span>
+             </li>
+             <li class="flex justify-between max-w-xs font-sans font-light text-[#E8DCC8]/85">
+              <span>
+               Sábado
+              </span>
+              <span class="text-[#F2D98A]">
+               09h — 19h
+              </span>
+             </li>
+             <li class="flex justify-between max-w-xs font-sans font-light text-[#E8DCC8]/85">
+              <span>
+               Domingo
+              </span>
+              <span class="text-[#F2D98A]">
+               10h — 16h
+              </span>
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+         <div class="reveal">
+          <a class="mt-10 inline-flex items-center gap-3 rounded-full bg-gold-gradient px-9 py-4 font-sans text-xs uppercase tracking-[0.2em] text-[#2B160D] font-medium hover:scale-105 hover:shadow-[0_10px_40px_rgba(201,162,39,0.4)] transition-transform duration-300" href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20V%C3%A9rtice%20Boutique%20Spa." rel="noopener noreferrer" target="_blank">
+           Agende seu momento →
+          </a>
+         </div>
+        </div>
+        <div class="reveal">
+         <div class="relative rounded-sm overflow-hidden border border-[#C9A227]/25 h-[380px] sm:h-[460px]">
+          <iframe class="w-full h-full" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975765795493!2d-46.66228588502223!3d-23.561349584682057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1625000000000!5m2!1spt-BR!2sbr" style="border: 0px; filter: invert(90%) hue-rotate(180deg) saturate(0.7) brightness(0.9) contrast(1.1);" title="Localização do Vértice Boutique Spa">
+          </iframe>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+    </main>
+    <footer class="relative bg-[#2B160D] pt-24 pb-10">
+     <div class="max-w-7xl mx-auto px-6 sm:px-12">
+      <div class="text-center max-w-3xl mx-auto reveal">
+       <h2 class="font-serif font-medium tracking-tight text-4xl sm:text-6xl text-[#FDFBF7] leading-[1.05]">
+        Ser cuidado não é custo,
+        <span class="text-gold-gradient italic">
+         é prazeroso.
+        </span>
+       </h2>
+       <a class="mt-10 inline-flex items-center gap-3 rounded-full bg-gold-gradient px-10 py-4 font-sans text-xs sm:text-sm uppercase tracking-[0.2em] text-[#2B160D] font-medium hover:scale-105 hover:shadow-[0_10px_40px_rgba(201,162,39,0.4)] transition-transform duration-300" href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20V%C3%A9rtice%20Boutique%20Spa." rel="noopener noreferrer" target="_blank">
+        Agende seu momento
+       </a>
+      </div>
+      <div class="mt-20 h-px w-full bg-gradient-to-r from-transparent via-[#C9A227]/40 to-transparent">
+      </div>
+      <div class="mt-12 grid sm:grid-cols-3 gap-10 items-start">
+       <div>
+        <div class="flex items-center gap-3">
+         <svg aria-hidden="true" class="" fill="none" height="34" viewbox="0 0 48 48" width="34">
+          <defs>
+           <lineargradient gradientunits="userSpaceOnUse" id="goldV" x1="0" x2="48" y1="0" y2="48">
+            <stop stop-color="#C9A227">
+            </stop>
+            <stop offset="1" stop-color="#F2D98A">
+            </stop>
+           </lineargradient>
+          </defs>
+          <path d="M6 6 L24 40 L42 6" fill="none" stroke="url(#goldV)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+          </path>
+          <path d="M14 6 L24 26 L34 6" fill="none" opacity="0.85" stroke="url(#goldV)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+          </path>
+         </svg>
+         <div class="flex flex-col leading-none">
+          <span class="font-serif text-lg tracking-wide text-gold-gradient">
+           Vértice
+          </span>
+          <span class="font-sans text-[9px] uppercase tracking-[0.35em] text-[#D9C6A5] mt-0.5">
+           Boutique Spa
+          </span>
+         </div>
+        </div>
+        <p class="mt-5 font-sans font-light text-sm text-[#E8DCC8]/60 max-w-xs leading-relaxed">
+         <span data-ve-dynamic="true" style="display: contents;">
+          Rua das Palmeiras, 123 — Jardins
+         </span>
+         ,
+         <span data-ve-dynamic="true" style="display: contents;">
+          São Paulo — SP, 01415-000
+         </span>
+        </p>
+       </div>
+       <div class="sm:text-center">
+        <h4 class="font-sans text-xs uppercase tracking-[0.25em] text-[#C9A227] mb-4">
+         Navegação
+        </h4>
+        <ul class="space-y-2">
+         <li>
+          <button class="font-sans font-light text-sm text-[#E8DCC8]/70 hover:text-[#F2D98A] transition-colors">
+           Início
+          </button>
+         </li>
+         <li>
+          <button class="font-sans font-light text-sm text-[#E8DCC8]/70 hover:text-[#F2D98A] transition-colors">
+           Sobre
+          </button>
+         </li>
+         <li>
+          <button class="font-sans font-light text-sm text-[#E8DCC8]/70 hover:text-[#F2D98A] transition-colors">
+           Serviços
+          </button>
+         </li>
+         <li>
+          <button class="font-sans font-light text-sm text-[#E8DCC8]/70 hover:text-[#F2D98A] transition-colors">
+           Ambiente
+          </button>
+         </li>
+         <li>
+          <button class="font-sans font-light text-sm text-[#E8DCC8]/70 hover:text-[#F2D98A] transition-colors">
+           Contato
+          </button>
+         </li>
+        </ul>
+       </div>
+       <div class="sm:text-right">
+        <h4 class="font-sans text-xs uppercase tracking-[0.25em] text-[#C9A227] mb-4">
+         Siga-nos
+        </h4>
+        <a class="inline-flex items-center gap-3 sm:flex-row-reverse font-sans font-light text-sm text-[#E8DCC8]/70 hover:text-[#F2D98A] transition-colors" href="https://instagram.com/" rel="noopener noreferrer" target="_blank">
+         <svg aria-hidden="true" class="lucide lucide-instagram" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+          <rect height="20" rx="5" ry="5" width="20" x="2" y="2">
+          </rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z">
+          </path>
+          <line x1="17.5" x2="17.51" y1="6.5" y2="6.5">
+          </line>
+         </svg>
+         @verticeboutiquespa
+        </a>
+       </div>
+      </div>
+      <div class="mt-16 pt-8 border-t border-[#C9A227]/10 flex flex-col sm:flex-row justify-between gap-3">
+       <p class="font-sans text-xs text-[#E8DCC8]/40 tracking-wide">
+        ©
+        <span data-ve-dynamic="true" style="display: contents;">
+         2026
+        </span>
+        Vértice Boutique Spa. Todos os direitos reservados.
+       </p>
+       <p class="font-sans text-xs text-[#E8DCC8]/40 tracking-wide uppercase tracking-[0.2em]">
+        Cuide-se.
+       </p>
+      </div>
+     </div>
+    </footer>
+    <a aria-label="Agende pelo WhatsApp" class="fixed bottom-6 right-6 z-[60] group" href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20V%C3%A9rtice%20Boutique%20Spa." rel="noopener noreferrer" target="_blank">
+     <span class="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-40">
+     </span>
+     <span class="relative flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] border-2 border-[#F2D98A]/70 shadow-[0_8px_30px_rgba(0,0,0,0.4)] group-hover:scale-110 transition-transform duration-300">
+      <svg aria-hidden="true" fill="#FDFBF7" height="28" viewbox="0 0 24 24" width="28">
+       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.71.306 1.263.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z">
+       </path>
+      </svg>
+     </span>
+    </a>
+   </div>
+  </div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <!-- Mobile Menu Overlay -->
+  <div class="fixed inset-0 z-50 bg-[#2B160D]/95 backdrop-blur-md translate-x-full transition-transform duration-500 md:hidden flex flex-col justify-center items-center gap-8" id="mobile-menu">
+   <!-- Close Button -->
+   <button aria-label="Fechar Menu" class="absolute top-6 right-6 text-[#F2D98A] cursor-pointer" id="close-menu-btn">
+    <svg class="lucide lucide-x" fill="none" height="28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg">
+     <path d="M18 6 6 18">
+     </path>
+     <path d="m6 6 12 12">
+     </path>
+    </svg>
+   </button>
+   <nav class="flex flex-col items-center gap-8">
+    <button class="font-sans text-lg uppercase tracking-[0.2em] text-[#E8DCC8]/80 hover:text-[#F2D98A] transition-colors duration-300 mobile-nav-link" data-target="#inicio">
+     Início
+    </button>
+    <button class="font-sans text-lg uppercase tracking-[0.2em] text-[#E8DCC8]/80 hover:text-[#F2D98A] transition-colors duration-300 mobile-nav-link" data-target="#sobre">
+     Sobre
+    </button>
+    <button class="font-sans text-lg uppercase tracking-[0.2em] text-[#E8DCC8]/80 hover:text-[#F2D98A] transition-colors duration-300 mobile-nav-link" data-target="#servicos">
+     Serviços
+    </button>
+    <button class="font-sans text-lg uppercase tracking-[0.2em] text-[#E8DCC8]/80 hover:text-[#F2D98A] transition-colors duration-300 mobile-nav-link" data-target="#ambiente">
+     Ambiente
+    </button>
+    <button class="font-sans text-lg uppercase tracking-[0.2em] text-[#E8DCC8]/80 hover:text-[#F2D98A] transition-colors duration-300 mobile-nav-link" data-target="#contato">
+     Contato
+    </button>
+   </nav>
+   <a class="rounded-full bg-gold-gradient px-8 py-3.5 font-sans text-sm uppercase tracking-[0.2em] text-[#2B160D] font-medium mt-4" href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20V%C3%A9rtice%20Boutique%20Spa." rel="noopener noreferrer" target="_blank">
+    Agende
+   </a>
+  </div>
+  <script src="assets/js/main.js">
+  </script>
+ </body>
+</html>
