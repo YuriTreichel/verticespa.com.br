@@ -102,19 +102,24 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- Testimonials Slider ---
   const testimonials = [
     {
-      text: "Saí de lá renovada, como se o mundo tivesse desacelerado só para mim. Uma experiência de outro nível.",
-      author: "Marina Albuquerque",
+      text: "Experiência impecável para vivenciar a dois. O ambiente, a privacidade e a atenção em cada detalhe tornaram o nosso momento inesquecível.",
+      author: "Lucas & Amanda Mendes",
+      context: "Casal · Clientes desde 2024"
+    },
+    {
+      text: "Um verdadeiro refúgio para desacelerar da rotina. O atendimento é discreto, profissional e de altíssimo nível. Superou todas as expectativas.",
+      author: "Rodrigo Silveira",
       context: "Cliente desde 2023"
     },
     {
-      text: "O atendimento é impecável e o ambiente transmite uma paz indescritível. O Ritual de Casal é simplesmente maravilhoso.",
-      author: "Lucas & Amanda Mendes",
-      context: "Clientes desde 2024"
+      text: "Ambiente extremamente sofisticado e acolhedor. Escolhemos o Vértice para um dia especial a dois e superou tudo o que imaginávamos.",
+      author: "Eduardo & Vanessa Costa",
+      context: "Casal · Clientes desde 2024"
     },
     {
-      text: "A melhor massagem terapêutica que já fiz na vida. Profissionais extremamente qualificados e atenciosos.",
-      author: "Beatriz Ramos",
-      context: "Cliente desde 2022"
+      text: "Excelente atendimento, atmosfera relaxante e rituais renovadores. Indico para quem busca cuidado e bem-estar de verdade.",
+      author: "Marcelo Fonseca",
+      context: "Cliente desde 2023"
     }
   ];
 
